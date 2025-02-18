@@ -1,0 +1,19 @@
+using UnityEngine;
+
+namespace EclipseCore
+{
+    public class HelloWorld : MonoBehaviour
+    {
+        public void Initialize()
+        {
+            // Logic for initialization
+            Debug.Log("Hello There from EclipseCore DLL!");
+        }
+
+        void Start()
+        {
+            // Automatically called when this component is added to the GameObject
+            Initialize();
+        }
+    }
+}
